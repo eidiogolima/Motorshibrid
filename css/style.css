@@ -1,0 +1,23 @@
+/* ========== Tipografia ============ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Cormorant:wght@400;500&display=swap');
+
+/* =========== Global ============ */
+
+@import url('./global/header.css');
+
+/* ========== Ultilitarios =========== */
+
+@import url('./utilitarios/default.css');
+@import url('./utilitarios/tipografia/tipografia.css');
+
+
+/* ========== Componentes ============ */
+
+@import url('./componentes/botao.css');
+
+/* ========== Home ============ */
+
+@import url('../css/home/introducao.css');
+@import url('../css/home/lancamento.css');
+
