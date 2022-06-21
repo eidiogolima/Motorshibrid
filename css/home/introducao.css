@@ -7,18 +7,10 @@
 }
 
 .introducao h1{
-  font-family: Cormorante;
-  font-size: 4rem;
-  font-weight: 400;
-  color: #262626;
   padding-top: 1rem;
 }
 .introducao p {
-  font-family: Cabin;
-  font-size: 2.225rem;
   padding-top:  40px;
-  color: #595959;
-
 }
 .introducao .btn {
   margin-top: 80px;
@@ -58,24 +50,7 @@
   height: auto;
 }
 
-
-@media(max-width:1400px){
-  .introducao h1{
-    font-size: 3.4rem;
-  } 
-  .introducao p {
-    font-size:1.5rem ;
-  }
-}
-
 @media(max-width:1200px){
-  .introducao h1 {
-    font-size: 3.4rem ;
-  }
-
-  .introducao p {
-    font-size:1.9rem ;
-  }
   .introducao{
     margin: 0;
     padding: 0;
@@ -140,9 +115,7 @@
     display: none;
   }
   .introducao-bg .btn-default{
-  width: 100%;
-  
-  
+    width: 100%;
   }
   .introducao .btn {
     margin-top: 40px;

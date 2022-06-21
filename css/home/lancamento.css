@@ -97,7 +97,7 @@
       "interno interno"
     ;
     grid-template-rows: 80px 190px 190px auto auto;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
 
   }
 
@@ -109,28 +109,29 @@
   }
 
 
-  .lancamentos-grid .frente{
+  .lancamentos-grid .frente {
     height: 100%;
   }
+
   .lancamentos-grid h1 {
     word-break: break-all;
   }
-  
+
   .lancamentos-grid h2 {
     word-break: break-all;
-  
+
   }
-  
+
   .lancamentos-grid p {
     word-break: break-all;
-   
+
   }
 
 
 
 }
 
-@media(max-width:1080px){
+@media(max-width:1080px) {
   .lancamentos-grid {
 
     grid-template-areas:
@@ -141,7 +142,7 @@
       "interno interno"
     ;
     grid-template-rows: 80px .5fr 1fr auto auto;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
 
   }
 
@@ -149,13 +150,14 @@
   .lancamentos-grid .btn-default {
     width: 100%;
   }
-  
+
 }
-@media(max-width:1000px){
+
+@media(max-width:1000px) {
   .lancamentos-grid {
 
     grid-template-areas:
-      "numeros numeros"
+    "numeros numeros"
       "h1 h1"
       "subtitulo subtitulo"
       "texto texto"
@@ -163,24 +165,42 @@
       "interno interno"
     ;
     grid-template-rows: auto .5fr 1fr auto auto;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     grid-gap: 40px;
   }
+  .lancamento-bg {
+    background-color: #111111;
+    padding-top: 12px;
+  }
+  
 
   .lancamentos-grid .tras,
   /* .lancamentos-grid .numeros, */
   /* .lancamentos-grid .interno, */
   .lancamentos-grid .frente {
-   display: none;
+    display: none;
   }
-  .lancamentos-grid .numeros{
+
+  .lancamentos-grid .numeros {
     opacity: 40%;
   }
-  
+
 }
 
 
-@media(max-width:1000px){
-  
- 
+@media(max-width:500px){
+  .lancamentos-grid {
+
+    grid-template-areas:
+    "numeros numeros"
+      "h1 h1"
+      "subtitulo subtitulo"
+      "texto texto"
+      "botao botao"
+      "interno interno"
+    ;
+    grid-template-rows: auto .5fr 1fr auto auto;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+  }
 }
