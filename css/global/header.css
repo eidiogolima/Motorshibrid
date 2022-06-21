@@ -8,6 +8,7 @@ a{
   text-decoration: none;
   font-family: Cabin;
   font-size: 1.125rem;
+  
 
 }
 
@@ -29,7 +30,7 @@ a{
 }
 #header-bg{
   background: #FFFFFF;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #c2c2c2;
 }
 #menu li a{
   color: #000;
@@ -139,6 +140,10 @@ a{
   }
   #menu li a{
     color: #000;
+  }
+
+  #menu li a::before{
+    display: none;
   }
   #btn-mobile{
     display: flex;

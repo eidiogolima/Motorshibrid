@@ -6,15 +6,13 @@
 
 @import url('./global/header.css');
 
-/* ========== Ultilitarios =========== */
+/* ========== Utilidades =========== */
 
-@import url('./utilitarios/default.css');
-@import url('./utilitarios/tipografia/tipografia.css');
+@import url('./utilidades/default.css');
+@import url('./utilidades/tipografia.css');
+@import url('./utilidades/componentes.css');
+@import url('./utilidades/cores.css');
 
-
-/* ========== Componentes ============ */
-
-@import url('./componentes/botao.css');
 
 /* ========== Home ============ */
 
