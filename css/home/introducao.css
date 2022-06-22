@@ -8,22 +8,20 @@
 
 .introducao h1{
   padding-top: 1rem;
+  
 }
 .introducao p {
-  padding-top:  40px;
+  margin-top:  32px;
 }
 .introducao .btn {
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 .introducao {
   display: flex;
   align-items: center;
   background-color: #f7f7f7;
-
   /* box-sizing: border-box; */
-
-  
 }
 .introducao-itens{ 
   margin: 0 auto; 
@@ -117,8 +115,4 @@
   .introducao-bg .btn-default{
     width: 100%;
   }
-  .introducao .btn {
-    margin-top: 40px;
-  }
-  
 }
