@@ -13,6 +13,19 @@
   text-align: center;
   display: inline-block;
 }
+
+.btn-border3{
+  font-family: Cabin;
+  font-weight: 500;
+  border-radius: 2px;
+  border: 1px solid var(--cor-1);
+  color: var(--cor-1);
+  padding: 15px 30px;
+  width: 60%;
+  text-align: center;
+  display: inline-block;
+}
+
 .btn-default{
   font-family: Cabin;
   background:linear-gradient(#FF8A00, #FF9900) ;
@@ -34,5 +47,10 @@
   }
   .btn-border2{
     font-size: .8rem;
+  }
+  .btn-border3{
+
+    width: 100%;
+
   }
 }
