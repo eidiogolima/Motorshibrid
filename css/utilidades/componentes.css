@@ -26,6 +26,31 @@
   display: inline-block;
 }
 
+.btn-border3-h{
+  font-family: Cabin;
+  font-weight: 500;
+  border-radius: 2px;
+  border: 1px solid var(--cor-11);
+  color: var(--cor-11);
+  padding: 15px 30px;
+  width: 60%;
+  text-align: center;
+  display: inline-block;
+}
+
+
+.btn-border4{
+  font-family: Cabin;
+  font-weight: 500;
+  border-radius: 2px;
+  border: 1px solid var(--cor-11);
+  color: var(--cor-11);
+  padding: 15px 30px;
+  width: 60%;
+  text-align: center;
+  display: inline-block;
+}
+
 .btn-default{
   font-family: Cabin;
   background:linear-gradient(#FF8A00, #FF9900) ;
@@ -39,6 +64,15 @@
 }
 .azul {
   color:#0066FF;
+}
+
+@media(max-width:500px){
+  .btn-border3{
+    display: none;
+  }
+  .btn-border3-h{
+    display: none;
+  }
 }
 
 @media(max-width:340px){
