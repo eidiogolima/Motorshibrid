@@ -46,26 +46,32 @@
   margin-bottom: 20px;
 }
 
-.veiculos-grid .btn-default {
-  display: grid;
-  width: 50%;
-
-}
 
 @media(max-width:900px){
   .veiculos-grid{
-    overflow-x: scroll;
+    grid-template-columns: 1fr 1fr;
   }
   .veiculos-grid img{
-    width:276px ;
+    
   }
 
+.veiculos-grid .btn-default {
+  display: grid;
+  width: 60%;
+
+}
 
   
 }
 
-@media(max-width:500px){
+@media(max-width:550px){
   .veiculos-grid{
+    grid-template-columns: 1fr;
     padding: 20px 20px ;
+  }
+  .seu-veiculo{
+    padding: 20px 20px;
+    display: flex;
+    
   }
 }
