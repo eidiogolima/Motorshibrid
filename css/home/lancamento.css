@@ -1,6 +1,6 @@
 .lancamento-bg {
   background-color: #111111;
-  padding-top: 60px;
+  padding: 60px 0;
   
 }
 
@@ -146,7 +146,7 @@
 
 
   .lancamentos-grid .btn-default {
-    width: 100%;
+    width: 60%;
   }
 
 }
@@ -182,6 +182,9 @@
     opacity: 40%;
     margin-bottom: 20px;
 
+  }
+  .lancamento-bg{
+    padding: 20px 0;
   }
 
 }
