@@ -33,6 +33,11 @@
   font-family: Cabin;
   font-weight: 400;
 }
+.font-2-xs {
+  font-size: 1rem;
+  font-family: Cabin;
+  font-weight: 400;
+}
 
 @media(max-width:500px){
 

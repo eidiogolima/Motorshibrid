@@ -20,6 +20,6 @@ export default function menuMobile() {
   }
 
 
-  btnMobile.addEventListener('touchstart', toogleMenu)
-  btnMobile.addEventListener('click', toogleMenu)
+  btnMobile.addEventListener('touchstart', toogleMenu);
+  btnMobile.addEventListener('click', toogleMenu);
 }
