@@ -6,6 +6,7 @@
 
 @import url('./global/header.css');
 @import url('./global/footer.css');
+@import url('./global/global.css');
 
 /* ========== Utilidades =========== */
 
@@ -22,3 +23,7 @@
 @import url('../css/home/motores.css');
 @import url('../css/home/seguros.css');
 
+/* ========== VVeiculos ============ */
+
+
+@import url('./veiculos/veiculos.css');

@@ -41,7 +41,7 @@ a{
   display: flex;
   width:0%;
   height: 6px;
-  background-color: #000;
+  background-color: var(--cor-p1);
   position: relative;
   transition: .3s;
 }

@@ -119,6 +119,12 @@
  
 }
 
+.seguros-btn .btn-default {
+  width: 28%;
+  display: flex;
+  justify-content: center;
+ }
+
 
 @media(max-width:1200px){
   .perguntas {
