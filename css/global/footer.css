@@ -14,7 +14,7 @@
   margin-bottom: 20px;
 }
 
-.footer-grid li,
+
 .footer-grid h2{
   margin-bottom: 10px;
 }
@@ -40,6 +40,11 @@
   border: 1px solid var(--cor-11);
   
 }
+.footer-grid a li {
+  padding: 10px;
+  margin-bottom: 2px;
+
+}
 @media(max-width:800px){
   .footer-grid{
     grid-template-columns: 1fr 1fr;
@@ -55,5 +60,6 @@
   .footer-logo{
     margin-bottom: 20px;
   }
+  
  
 }
