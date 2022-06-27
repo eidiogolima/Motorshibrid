@@ -1,35 +1,23 @@
-
-.veiculos {
-  background-color: var(--cor-10);
-  padding: 20px 20px;
-  display: flex;
-  justify-content: start;
-
-}
-.seu-veiculo{
-  padding: 20px 20px;
-  display: flex;
-  
-}
-
-
-
-
-
-.veiculos-grid{
+.veiculos-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 120px 0;
   gap: 20px;
-  padding: 60px 20px ;
+  padding: 20px 20px 60px 20px;
 }
 
-.veiculos-grid img{
+.veiculos-bg .v-escolha {
+  padding: 20px;
+}
+
+.veiculos-grid img {
   width: 100%;
 }
-.veiculos-grid h1{
+
+.veiculos-grid h1 {
   margin-bottom: 16px;
   max-width: max-content;
+  font-weight: 500;
 }
 
 .veiculos-grid h1::after {
@@ -38,40 +26,43 @@
   position: reltive;
   margin-top: 4px;
   width: 20px;
-  height:4px;
+  height: 4px;
   background: var(--cor-p1)
 }
 
 .veiculos-grid p {
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 }
 
 
-@media(max-width:900px){
-  .veiculos-grid{
+@media(max-width:900px) {
+  .veiculos-grid {
     grid-template-columns: 1fr 1fr;
   }
-  .veiculos-grid img{
-    
+
+  .veiculos-grid p {
+    margin-bottom: 20px;
   }
 
-.veiculos-grid .btn-default {
-  display: grid;
-  width: 60%;
+  .veiculos-grid .btn-default {
+    display: grid;
+    width: 60%;
+
+  }
+
 
 }
 
-  
-}
-
-@media(max-width:550px){
-  .veiculos-grid{
+@media(max-width:550px) {
+  .veiculos-grid {
     grid-template-columns: 1fr;
-    padding: 20px 20px ;
+    padding: 0px 20px 60px 20px;
+
   }
-  .seu-veiculo{
+
+  .seu-veiculo {
     padding: 20px 20px;
     display: flex;
-    
+
   }
 }
