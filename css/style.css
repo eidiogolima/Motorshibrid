@@ -32,3 +32,7 @@
 /* ========== Instalacoes ============ */
 
 @import url('./instalacoes/instalacoes.css');
+
+/* ========== lancamentos ============ */
+
+@import url('./lancamentos/lancamentos.css');

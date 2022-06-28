@@ -3,8 +3,7 @@
   padding: .2vw 2vw;
   color: #000;
 }
-.btn-border2{
-  font-family: Cabin;
+.btn-border2{  font-family: Cabin;
   border-radius: 2px;
   border: 1px solid #000;
   color: #000;
@@ -15,7 +14,7 @@
 }
 
 .btn-border3{
-  font-family: Cabin;
+
   font-weight: 500;
   border-radius: 2px;
   border: 1px solid var(--cor-1);
@@ -27,7 +26,7 @@
 }
 
 .btn-border3-h{
-  font-family: Cabin;
+ 
   font-weight: 500;
   border-radius: 2px;
   border: 1px solid var(--cor-11);
