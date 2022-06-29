@@ -11,10 +11,28 @@
   margin-bottom: 20px;
 }
 .h2-linha-motores h2{
-  font-style: i;
+  font-style: italic;
 }
-.h2-linha-motores h2::after{
+.h2-linha-motores .spark::before{
   content: "";
+  width: 6px;
+  height: 30px;
+  bottom: 4px;
+  margin-right: 8px;
+  position: relative;
+  display: inline-block;
+  background-color: var(--cor-p1);
+}
+
+.h2-linha-motores .hub::before {
+  content: "";
+  width: 6px;
+  height: 30px;
+  bottom: 4px;
+  margin-right: 8px;
+  position: relative;
+  display: inline-block;
+  background-color: var(--cor-a1);
 }
 
 .informacao-motores-botao {
@@ -106,7 +124,18 @@
 }
 @media(max-width:600px){
   
-
+  .h2-linha-motores .spark::before{
+    width: 4px;
+    height: 20px;
+    bottom: 4px;
+    margin-right: 8px;
+  }
+  .h2-linha-motores .hub::before{
+    width: 4px;
+    height: 20px;
+    bottom: 4px;
+    margin-right: 8px;
+  }
   .motor-imagem {
 
     grid-column:1/-1;
@@ -127,6 +156,55 @@
   
 }
 
+
+/* Linha hub */
+
+.linha-hub-main{
+  background-color: var(--cor-10);
+  padding:40px 20px;
+  margin: 0;
+}
+
+.linha-hub-main .como-funciona p{
+  background-color: var(--cor-9);
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.linha-hub-main .linha {
+  width: 100%;
+  height: 2px;
+  background-color: var(--cor-9);
+  margin-bottom: 40px;
+}
+
+.linha-hub-main .informacao-motores {
+  display: flex;
+  align-items: center;
+  background-color: var(--cor-9);
+  padding: 20px 10px;
+  border-radius: 4px;
+  gap: 4px;
+
+}
+.linha-hub-main .informacao-motores span{
+  color: var(--cor-6);
+}
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+  .h2-linha-motores .hub::before,
+  .h2-linha-motores .spark::before {
+    height: 16px;
+  }
+}
+
 @media(max-width:450px){
   .informacao-motores span {
     font-size: .8rem;
@@ -136,12 +214,17 @@
     background-color: var(--cor-0);
 
   }
+  .linha-hub-main .informacao-motores{
+    background-color:var(--cor-10);
+  }
 
 } 
 
 @media(max-width:320px){
-  .informacao-motores {
+  .informacao-motores,
+  .linha-hub-main .informacao-motores {
     display: none;
 
   }
-}
+
+}gi
