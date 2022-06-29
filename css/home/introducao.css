@@ -109,10 +109,8 @@
   .introducao h1{
     word-break: break-all;
   }
-  .introducao-bg .btn-border2{
-    display: none;
-  }
-  .introducao-bg .btn-default{
+
+  .introducao-bg .botao{
     width: 70%;
   }
 }

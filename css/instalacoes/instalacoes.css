@@ -19,7 +19,7 @@
   margin-bottom: 20px;
 }
 
-.instalacoes-flex .btn-default {
+.instalacoes-flex .botao {
   
   width: 20%;
   display: flex;
@@ -27,7 +27,7 @@
 }
 
 @media(max-width:500px){
-  .instalacoes-flex .btn-default {
+  .instalacoes-flex .botao {
   
     width: 50%;
     display: flex;

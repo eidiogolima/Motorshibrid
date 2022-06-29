@@ -127,7 +127,7 @@
 
 }
 
-.seguros-btn .btn-default {
+.seguros-btn .botao {
   width: 28%;
   display: flex;
   justify-content: center;
@@ -152,7 +152,7 @@
     width: 100%;
   }
 
-  .seguros-btn .btn-default {
+  .seguros-btn .botao {
     width: 60%;
     display: flex;
     justify-content: center;
