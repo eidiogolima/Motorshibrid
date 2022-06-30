@@ -1,6 +1,9 @@
 .motores-main-bg .container{
   padding: 40px 20px;
 }
+.motores-main-bg-hub {
+  background-color: var(--cor-10);
+}
 
 .motores-main-itens h1 {
 
@@ -227,4 +230,4 @@
 
   }
 
-}gi
+}

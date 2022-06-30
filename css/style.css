@@ -39,3 +39,7 @@
 /* ========== motores ============ */
 
 @import url('./motores/motores.css');
+
+/* ========== Seguros ============ */
+
+@import url('./seguros/seguros.css');
