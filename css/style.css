@@ -14,6 +14,7 @@
 @import url('./utilidades/componentes.css');
 @import url('./utilidades/cores.css');
 @import url('./utilidades/cabecalho.css');
+@import url('./utilidades/formulario.css');
 
 
 /* ========== Home ============ */
@@ -43,3 +44,6 @@
 /* ========== Seguros ============ */
 
 @import url('./seguros/seguros.css');
+
+/* ========== Oracmento ============ */
+@import url('./orcamento/orcamento.css');
