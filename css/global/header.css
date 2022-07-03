@@ -45,6 +45,7 @@ a{
   position: relative;
   transition: .3s;
 }
+
 #menu li::after{
   content: '';
   position: relative;

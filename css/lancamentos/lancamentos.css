@@ -116,9 +116,18 @@
   .lancamentos-video-bg {
     padding: 0 0px;
     padding-bottom:40px;
-    background: linear-gradient(to bottom, var(--cor-1) 0% 20%, var(--cor-11) 20% 80%);
+    background: var(--cor-1);
 
   }
+
+  .lancamentos-bg .container {
+    padding: 0;
+  }
+  .lancamentos-video-bg video {
+    padding: 0 0px;
+  }
+ 
+
 
   
 }
