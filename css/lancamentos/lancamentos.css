@@ -124,13 +124,15 @@
     padding: 0;
   }
   .lancamentos-video-bg video {
-    padding: 0 0px;
+    width: 100%;
+    padding: 0 10px;
   }
- 
-
-
-  
+  .btn-lancamentos {
+    border: 1px solid #000;
+    color: var(--cor-9);
+  }
 }
+ 
 
 @media(max-width:350px){
   .btn-lancamentos {
