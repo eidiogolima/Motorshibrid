@@ -84,40 +84,63 @@
   align-items: center;
 }
 
-.ficha-veiculo-bg{
+.ficha-veiculo-bg {
   display: none;
 }
 
 .imagem-carro img {
   width: 100%;
 }
-.barra-veiculo{
+
+.barra-veiculo {
   background-color: var(--cor-10);
-  display:flex;
+  display: flex;
   width: 50%;
   padding: 20px;
   cursor: pointer;
   margin: 0 auto;
-  
-}
-@keyframes todown{
-  0%{top:0px;}
-  50%{top: 10px}
-  100%{top:0px}
+
 }
 
+@keyframes todown {
+  0% {
+    top: 0px;
+  }
+
+  50% {
+    top: 10px
+  }
+
+  100% {
+    top: 0px
+  }
+}
+
+@keyframes downbtn {
+  to {
+
+    height: 100%;
+  }
+
+  from {
+    height: 0;
+  }
+}
+
+
+
+
+
 .barra-veiculo img {
-  transform:rotate(180deg); 
-  animation:2s todown infinite;
+  transform: rotate(180deg);
+  animation: 2s todown infinite;
   margin: 0 auto;
   width: 50px;
   position: relative;
 }
 
-.barra-veiculo.ativa img{
-  transform:rotate(0deg); 
- 
-  
+.barra-veiculo.ativa img {
+  transform: rotate(0deg);
 }
 
 .itens-veiculo h1 {
@@ -138,46 +161,57 @@
   margin-bottom: 20px;
 }
 
+
+
+
 .botao-veiculo {
   margin-top: 32px;
   display: flex;
   justify-content: center;
+  animation: 1s downbtn forwards;
+}
+.botao-veiculo span {
+  margin-left: 20px;
 }
 
 .ficha-veiculo-bg {
-  display: none;
-  position: relative;
-  z-index: 10;
   grid-row: 2;
   grid-column: span 2;
-  height: 0px;
-  transition: 3s;
-}
-.ficha-veiculo-bg{
-  background-color: rgba(0,0,0,0.2);
+  visibility: hidden;
+  overflow: hidden;
 }
 
-.ficha-veiculo-bg.ativo{
-  display: flex;
-  transition-delay: .8s;
-  height: 100%;
- 
-  
+.ficha-veiculo-bg.ativo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  width: 100%;
+  animation: 1s downbtn forwards;
+  visibility: visible;
+  overflow-y: hidden;
+  box-sizing: border-box;
+
 }
 
 .ficha-veiculo {
-  display: flex;
   padding: 20px;
-  width: max-content;
   background-color: var(--cor-12);
+  animation: 1s downbtn forwards;
   gap: 40px;
+  grid-column: span 2;
+  
 }
 
-.ficha-veiculo ul li {
+
+.ficha-veiculo .lista-itens li {
   display: flex;
   padding: 10px;
   gap: 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--cor-11);
 }
+
+
 @media(max-width:1200px) {
 
 
@@ -192,11 +226,17 @@
 
 @media(max-width:1000px) {
   .veiculo-main-grid {
-
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     padding-bottom: 60px;
     padding-top: 60px;
+    gap: 20px 0px;
+    
   }
+  .imagem-carro {
+    grid-row: 1;
+    grid-column: span 2;
+  }
+
 
   .barra-veiculo {
     grid-column: 1/-1;
@@ -209,6 +249,16 @@
     margin: 0 auto;
     cursor: pointer;
   }
+  
+.ficha-veiculo-bg {
+  grid-row: 3;
+  grid-column: span 2;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+
+
 
   .barra-veiculo img {
     width: 26px;
