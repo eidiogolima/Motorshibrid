@@ -14,3 +14,4 @@ function ativarProduto(paramentro) {
 }
 
 paramentro.forEach(ativarProduto)
+

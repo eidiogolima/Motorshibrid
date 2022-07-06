@@ -1,6 +1,9 @@
 .footer-bg {
   background-color: var(--cor-12);
 }
+.footer-logo {
+  width: 200px;
+}
 
 .footer-grid{
   padding: 60px 0;
