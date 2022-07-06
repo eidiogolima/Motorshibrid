@@ -57,6 +57,10 @@ a{
   background-color: #646464;
 
 }
+#menu li:nth-child(2):after{
+  display: none;
+
+}
 #menu li:first-child::after{
   display: none;
 }
@@ -105,6 +109,10 @@ a{
   display: flex;
   color: #000;
   padding: 10px;
+  border: 1px solid var(--cor-12);
+}
+.quem-somos {
+  display: none;
 }
 
 @media(max-width:900px){
@@ -126,6 +134,10 @@ a{
   #quem-somos{
     display: none;
   }
+  .quem-somos {
+    display: initial;
+  }
+  
   #nav.active #menu{
 
     visibility: visible;

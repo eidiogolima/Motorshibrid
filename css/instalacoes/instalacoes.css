@@ -1,9 +1,11 @@
 .instalacoes-flex {
   display: grid;
-  padding: 20px 20px;
+  padding: 20px 0px;
 
 }
-
+.instalacoes-flex span {
+  margin-bottom: 20px;
+}
 .instalacoes-flex h1 {
   margin-bottom: 32px;
   word-break: break-all;
