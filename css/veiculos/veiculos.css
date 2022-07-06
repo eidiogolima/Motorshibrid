@@ -170,6 +170,7 @@
   justify-content: center;
   animation: 1s downbtn forwards;
 }
+
 .botao-veiculo span {
   margin-left: 20px;
 }
@@ -199,7 +200,7 @@
   animation: 1s downbtn forwards;
   gap: 40px;
   grid-column: span 2;
-  
+
 }
 
 
@@ -209,6 +210,17 @@
   gap: 20px;
   justify-content: space-between;
   border-bottom: 1px solid var(--cor-11);
+}
+
+.itens-veiculo h1::before {
+  content: "";
+  width: 6px;
+  height: 20px;
+  bottom: 4px;
+  margin-right: 8px;
+  position: relative;
+  display: inline-block;
+  background-color: var(--cor-p1);
 }
 
 
@@ -230,8 +242,9 @@
     padding-bottom: 60px;
     padding-top: 60px;
     gap: 20px 0px;
-    
+
   }
+
   .imagem-carro {
     grid-row: 1;
     grid-column: span 2;
@@ -249,13 +262,13 @@
     margin: 0 auto;
     cursor: pointer;
   }
-  
-.ficha-veiculo-bg {
-  grid-row: 3;
-  grid-column: span 2;
-  visibility: hidden;
-  overflow: hidden;
-}
+
+  .ficha-veiculo-bg {
+    grid-row: 3;
+    grid-column: span 2;
+    visibility: hidden;
+    overflow: hidden;
+  }
 
 
 
@@ -266,5 +279,23 @@
   }
 
 
+
+}
+
+@media(max-width:600px) {
+  .itens-veiculo h1::before {
+    width: 4px;
+    height: 20px;
+    bottom: 4px;
+    margin-right: 8px;
+  }
+}
+
+@media(max-width:500px) {
+
+
+  .itens-veiculo h1::before {
+    height: 16px;
+  }
 
 }
